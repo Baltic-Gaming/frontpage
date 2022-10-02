@@ -15,6 +15,9 @@
     
     $(window).on('load', function () {
         dataBackgroundImage();
+
+        const currentYear = new Date().getFullYear();
+        document.getElementById('p-copyright').innerHTML = `© 2021 - ${currentYear} balticgaming.gg`;
     });
     
 
